@@ -29,7 +29,7 @@ Red: #ed1c24
 */
 /* @end */
 body {
-  background: #2d3c42 url(/images/main-bg.png) no-repeat center top;
+  background: #2d3c42 url(/2011/images/main-bg.png) no-repeat center top;
   font: 300 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 a {
@@ -178,7 +178,7 @@ h4 {
   margin-right: auto;
   margin-top: 0;
   margin-left: auto;
-  background: white url(/images/bg.png) repeat-y;
+  background: white url(/2011/images/bg.png) repeat-y;
 }
 .left-area {
   overflow: hidden;
