@@ -1,0 +1,102 @@
+<h1>Join Us for the<br>3rd Annual GoGaRuCo!</h1>
+
+<div id="faces_holder">
+  <ul id="faces">
+    <li><img src="/images/people/chris-eppstein.jpg" alt="Chris Eppstein"></li>
+    <li><img src="/images/people/chris-strom.jpg" alt="Chris Strom"></li>
+    <li><img src="/images/people/corey-haines.jpg" alt="Corey Haines"></li>
+    <li><img src="/images/people/dave-grijalva.jpg" alt="Dave Grijalva"></li>
+    <li><img src="/images/people/david-copeland.jpg" alt="David Copeland"></li>
+    <li><img src="/images/people/erica-kwan.jpg" alt="Erica Kwan"></li>
+    <li><img src="/images/people/ilya-grigorik.jpg" alt="Ilya Grigorik"></li>
+    <li><img src="/images/people/jeff-casimir.jpg" alt="Jeff Casimir"></li>
+    <li><img src="/images/people/jose-valim.jpg" alt="José Valim"></li>
+    <li><img src="/images/people/konstantin-haase.jpg" alt="Konstantin Haase"></li>
+    <li><img src="/images/people/ron-evans.jpg" alt="Ron Evans"></li>
+    <li><img src="/images/people/ryan-dy.jpg" alt="Ryan Dy"></li>
+    <li><img src="/images/people/tim-anglade.jpg" alt="Tim Anglade"></li>
+    <li><img src="/images/people/tyler-mcmullen.jpg" alt="Tyler McMullen"></li>
+    <li><img src="/images/people/wesley-beary.jpg" alt="Wesley Beary"></li>
+    <li><img src="/images/people/yehuda-katz.jpg" alt="Yehuda Katz"></li>
+  </ul>
+</div>
+
+<script>
+  $(document).ready(function(){
+
+    var faces = $('ul#faces');
+    var elems = faces.children("li");
+    elems.sort(function() { return (Math.round(Math.random())-0.5); });
+    faces.empty();
+    for(var i=0; i < elems.length; i++) { faces.append(elems[i]); }
+
+    $('ul#faces').bxSlider({
+      displaySlideQty: 5,
+      moveSlideQty: 2,
+      auto: true,           // automatically play slides without a user click
+      speed: 750,           // number in milliseconds it takes to finish slide animation
+      pause: 2750,          // the amount of time in milliseconds between each auto animation
+      controls: false       // determines if controls will be displayed
+    });
+  });
+</script>
+
+<p>
+  San Francisco is the birthplace of the web revolution. Ruby powers many new technologies, from
+  web sites to telephony and desktop applications. Join us for two days of in-depth technical
+  explorations of the most interesting parts of the Ruby landscape, presented by some of the top
+  talents in the Ruby development community.
+</p>
+
+<p>
+  Registration for the second annual Golden Gate Ruby Conference is open now! Your ticket to
+  Golden Gate Ruby Conference gets you the following:
+</p>
+<p><a href="http://twitter.com/gogaruco"><img class="twitter-button" src="/images/twitter_button.png" alt="" /></a></p>
+<ul class="bullets">
+  <li>Admission to two days of sessions</li>
+  <li>Breakfast and Lunch both days</li>
+  <li>Official Conference swag</li>
+  <li>Access to after-hours parties</li>
+  <li>Access to our fantastic attendees and speakers</li>
+</ul>
+<p>
+  The conference is single-track. Just like last year we're doing 30-minute sessions, to ensure
+  that talks stay focused and interesting, with long breaks to allow time for networking and
+  discussion.
+</p>
+<p>See you all there!</p>
+
+<div class="updates">
+  <h2>Event Updates</h2>
+
+  <div>
+    <h3>Parties Announced, Registration Opened!</h3>
+    <p class="date">Posted July 11, 2011</p>
+    <p>
+      The time has arrived! Registration for GoGaRuCo is now open! If you poke around the site you'll find
+      info on our keynotes, first-announced speakers (more to follow!), details on the venue, and more. We
+      wanted to take this space to call out something new though: Parties!</p>
+    <p>
+    <a href="http://www.squareup.com"><img src="/images/sponsors/square.png" width="150"></a>Join Platinum Sponsor
+    <a href="http://www.squareup.com">Square Inc.</a> and fellow Rubyists for free drinks, appetizers and entertainment.
+    Friday, September 16th, 7:00pm. Venue and registration details to follow.</p>
+    <p><a href="http://www.yammer.com"><img src="/images/sponsors/yammer.png" width="140"></a>Platinum Sponsor
+      <a href="http://www.yammer.com">Yammer</a> will be hosting a Saturday, September 17th conference wrap party,
+      with a similar drinks + snacks setup. Details to be announced.
+    </p>
+  </div>
+
+  <div>
+    <h3>Call For Proposals is Open</h3>
+    <p class="date">Posted June 1, 2011</p>
+    <p>
+      It's that time: we're back! GoGaRuCo 2011 will happen September 16-17. Following our tradition of trying
+      something new each year, this year we're soliciting proposals for talks. If you have something awesome to
+      share with us, <a href="http://gogaruco.wufoo.com/forms/gogaruco-2011-call-for-proposals/">submit a
+      proposal</a> online by June 18th.
+    </p>
+    <p>Keep up with our announcements: follow
+      <a href="http://twitter.com/gogaruco">@gogaruco</a> on Twitter.</p>
+  </div>
+</div>
